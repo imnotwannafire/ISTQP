@@ -1,0 +1,12 @@
+Cách cài đặt chương trình:
+1. Mở win/ chọn Xampp
+2. Start apache/ my SQL
+- Apache -> config -> http.config
+- Ctrl F tìm cổng 80
+Replace: listen: 80 -> 81 servername local host: 80 -> 81
+3. paste dự án vào: C:\\xampp\\htdocs
+4. Mở trình duyệt, nhập: localhost:81
+- chọn phpmyadmin -> DB create DB -> import file
+5. Mở trình duyệt, nhập: localhost:81/banhoa -> web cho khách
+6. Mở trình duyệt, nhập: localhost:81/banhoa/adm -> web cho admin
+Sau khi cài đặt xong các bạn làm bước 6, đăng nhập với tài khoản admin như sau: tên đăng nhập/ password: admin/ admin và thực hiện test nhé.
